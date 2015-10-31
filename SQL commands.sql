@@ -7,3 +7,6 @@ ADD COLUMN `GutCount` INT(10) UNSIGNED NOT NULL DEFAULT '0' COMMENT '' AFTER `Ca
 
 ALTER TABLE `a3wasteland`.`playerstatsmap` 
 ADD COLUMN `GutCount` INT(10) UNSIGNED NOT NULL DEFAULT '0' COMMENT '' AFTER `CaptureCount`;
+
+ALTER TABLE `a3wasteland`.`playerinfo` 
+ADD COLUMN `SupporterLevel` INT(2) UNSIGNED NOT NULL DEFAULT '0' COMMENT '' AFTER `BattlEyeGUID`;
